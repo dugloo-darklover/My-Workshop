@@ -1,0 +1,598 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.img {
+    width: 45px;
+    padding-right: 5px;
+}
+
+.tropiko {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 0px 120px;
+    background: rgb(246, 246, 246);
+    /*To Comment*/
+    z-index: 100;
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(154, 152, 152);
+    margin: 30px;
+}
+
+.srch {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn {
+    margin: 30px;
+    width: 120px;
+    height: 30px;
+    border: 2px solid rgb(251, 153, 2);
+    background: rgb(251, 153, 2);
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    height: 60vh;
+    padding: 0px 7%;
+    background: rgb(246, 246, 246);
+    /* background: url('images/slide-img.png') no-repeat;
+    background-size: cover;
+    background-position: center; */
+
+}
+
+.section-content {
+    /* background-color: yellowgreen; */
+    max-width: 525px;
+}
+
+.section-content h1 {
+    margin-top: 7px;
+    font-size: 50px;
+    font-weight: 775;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+}
+
+.section-content p {
+    font-size: 19px;
+    margin: 20px 0px 40px;
+    color: rgb(154, 152, 152);
+
+}
+
+.section-content .btn-box {
+    display: flex;
+    justify-content: space-between;
+    /* background: yellowgreen; */
+    width: 310px;
+    height: 50px;
+}
+
+.btn-box .shopnow {
+    display: inline-flex;
+    width: 150px;
+    height: 100%;
+    border: 2px solid rgb(251, 153, 2);
+    background: rgb(251, 153, 2);
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-box .contactus {
+    display: inline-flex;
+    width: 150px;
+    height: 100%;
+    border: 2px solid black;
+    background: black;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 100px;
+    padding-top: 200px;
+    margin-left: 200px;
+}
+
+.section2 h2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px 0px 0px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.orange {
+    margin-top: 40px;
+    border: 1px solid grey;
+    display: inline-block;
+    margin-left: 60px;
+    width: 360px;
+    margin: 70px;
+}
+
+.orange img {
+    position: relative;
+    padding: 50px;
+    padding-left: 130px;
+}
+
+.orange a {
+    color: orange;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px;
+    padding-left: 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange p {
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-weight: 10px;
+}
+
+.grapes {
+    margin-top: 40px;
+    border: 1px solid grey;
+    display: inline-block;
+    margin-left: 60px;
+    width: 360px;
+    margin: 70px;
+}
+
+.grapes img {
+    position: relative;
+    padding: 50px;
+    padding-left: 130px;
+}
+
+.grapes a {
+    color: orange;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px;
+    padding-left: 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grapes p {
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-weight: 10px;
+}
+
+.gauva {
+    margin-top: 40px;
+    border: 1px solid grey;
+    display: inline-block;
+    margin-left: 60px;
+    width: 359px;
+    margin: 70px;
+}
+
+.gauva img {
+    position: relative;
+    padding: 50px;
+    padding-left: 130px;
+}
+
+.gauva a {
+    color: orange;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px;
+    padding-left: 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+.gauva p {
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-weight: 10px;
+}
+
+.readmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.readmore button {
+    width: 120px;
+    height: 40px;
+    border: 2px solid black;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.freshfruits h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.freshfruits p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.freshoranges {
+    padding: 0px 10px;
+}
+
+.freshoranges h4 {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 200;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.freshoranges p {
+    text-align: left;
+    font-size: 19px;
+    max-width: 750px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.orangeimg img {
+    float: right;
+    width: 300px;
+    margin: 0px 50px;
+    margin-bottom: 0px;
+    /* padding-right: 60px; */
+}
+
+.freshgrapes {
+    padding: 10px;
+}
+
+.freshgrapes h4 {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 200;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.freshgrapes p {
+    text-align: left;
+    font-size: 19px;
+    max-width: 750px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.grapesimg img {
+    float: right;
+    padding-top: 0px;
+    margin: 0px 75px;
+    width: 8%;
+    /* padding-right: 60px;
+    height: 300px; */
+}
+
+.freshgauva {
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.freshgauva h4 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: 200;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.freshgauva p {
+    text-align: left;
+    font-size: 19px;
+    max-width: 750px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.gauvaimg img {
+    float: right;
+    margin: 0px 50px;
+    width: 200px;
+    /* padding-right: 60px;
+    height: 300px; */
+}
+
+.buynow {
+    display: flex;
+    justify-content: left;
+    padding: 50px;
+
+}
+
+.buynow button {
+    width: 120px;
+    height: 40px;
+    border: 2px solid black;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.client h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 300px 0px 0px 0px;
+    margin-left: 300px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.client p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.clientimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.johnhex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(106, 105, 105);
+    padding: 30px;
+}
+
+.textjohnhex .p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textjohnhex .p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-weight: 200;
+    color: grey;
+}
+
+.textjohnhex .p2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-weight: 200;
+    color: grey;
+}
+
+.textjohnhex .p3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-weight: 200;
+    color: grey;
+}
+
+.contactus2 {
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contactform {
+    display: inline-block;
+    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#name {
+    border: none;
+    outline: none;
+    border-bottom: 4px solid grey;
+    width: 500px;
+    font-size: 20px;
+    margin: 0px 0px 30px 0px;
+}
+
+#phone {
+    border: none;
+    outline: none;
+    border-bottom: 4px solid grey;
+    width: 500px;
+    font-size: 20px;
+    margin: 0px 0px 30px 0px;
+}
+
+#email {
+    border: none;
+    outline: none;
+    border-bottom: 4px solid grey;
+    width: 500px;
+    font-size: 20px;
+    margin: 0px 0px 30px 0px;
+}
+
+#message {
+    border: none;
+    outline: none;
+    border-bottom: 4px solid grey;
+    width: 500px;
+    font-size: 20px;
+    margin: 40px 0px 0px 0px;
+}
+
+.sendbtn {
+    display: flex;
+    justify-content: left;
+    padding-top: 70px;
+    padding-left: 5px;
+}
+
+.sendbtn button {
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    border: 2px solid rgb(251, 153, 2);
+    background: rgb(251, 153, 2);
+    color: white;
+    cursor: pointer;
+}
+
+.dishimg {
+    float: right;
+    width: 250px;
+}
+
+
+.footer {
+    padding-top: 80px;
+}
+
+.footer p {
+    background: rgb(214, 214, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+#sub {
+    padding: 6px;
+}
+
+table {
+    padding-top: 12%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.tr1 {
+    font-size: 30px;
+}
+
+.tr2 {
+    font-size: 18px;
+}
+
+.tr3 {
+    font-size: 18px;
+}
+
+.td1 {
+    width: 30%;
+}
+
+.tdlogo {
+    width: 40%;
+    padding-top: 15px;
+}
+
+.tdlogo img {
+    margin: 0px 20px 0px 0px;
+    width: 34px;
+    cursor: pointer
+}
+
+span {
+    font-size: 25px;
+}
+
+.subbutton {
+    font-size: 20px;
+    color: white;
+    border: 2px solid orangered;
+    cursor: pointer;
+    background-color: orangered;
+    height: 40px;
+    width: 160px
+}
